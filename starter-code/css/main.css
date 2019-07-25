@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  border: 0;
 }
+
+body {
+  /* background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+header {
+  margin-top: -23px;
+  height: 40vh;
+  background-image: linear-gradient(#1c5380, #06365f);
+}
+
+#brand {
+  padding-left: 743px;
+  padding-top: 175px;
+}
+
+
+header button {
+  background-image: linear-gradient(#1c5380, #65a3da);
+  border-width: 0;
+  box-shadow: 0px 2px 15px rgba(50, 50, 50, 0.75);
+  margin-left: 93px;
+  transform: translateY(-25px);
+  width: 80px;
+  height: 40px;
+  color: #FFF;
+  font-family:
+}
+
+.description {
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 150px;
+  float: right;
+  text-align: center;
+  padding: 25px;
+
+  }
+
+  .store{
+    margin-right: 10px;
+  }
+
+ li {
+ display: inline;
+}
+
+footer {
+transform: translate(400px, 540px);
+color: blue;
+letter-spacing: 1px;
+ }
+
+ #phones {
+padding-left: 250px;
+
+ }
